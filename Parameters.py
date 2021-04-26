@@ -29,7 +29,7 @@ class Parameters:
     def get_minimum_length_of_clip(self):
         return self.minimum_length_of_clip
     
-    def get_maxium_length_of_clip(self):
+    def get_maximum_length_of_clip(self):
         return self.maximum_length_of_clip
     
     def get_minimum_length_between_checks(self):
@@ -71,5 +71,5 @@ class Parameters:
         return
     
     def set_maximum_length_between_checks(self, maximum_length_between_checks):
-        self.maxiumum_length_between_checks = maximum_length_between_checks
+        self.maximum_length_between_checks = maximum_length_between_checks
         return
