@@ -1,7 +1,6 @@
 from compoyse.wav.AudioFile import AudioFile
 from compoyse.wav.AudioClip import AudioClip
-# from compoyse.wav.AudioPlayer import AudioPlayer
-from AudioPlayer import AudioPlayer
+from compoyse.wav.AudioPlayer import AudioPlayer
 from TimeTracker import TimeTracker
 from TrackThread import TrackThread
 import os
